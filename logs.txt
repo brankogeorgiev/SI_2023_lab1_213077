@@ -1,0 +1,27 @@
+commit d0efc2058ac23c89481281afebaf0cc0133edc53 (HEAD -> master, origin/master, origin/bug3, bug3)
+Author: Branko Georgiev <bane.g2002@gmail.com>
+Date:   Sat Mar 25 20:15:55 2023 +0100
+
+    Fix method sumEvenNumbers
+
+commit f1f4f754499dc993e972eae6e07b773f37f0cc3b
+Author: Branko Georgiev <bane.g2002@gmail.com>
+Date:   Sat Mar 25 20:14:58 2023 +0100
+
+    Fix wrong condition in filterOddNumbers
+
+commit ce5772a46d1f4e08a6382a7f08c92ebbb1ef6c3e (origin/bug2, bug2)
+Author: Branko Georgiev <bane.g2002@gmail.com>
+Date:   Sat Mar 25 20:12:58 2023 +0100
+
+    Fix wrong loop for reading
+
+commit 9b47d13a071e6e9d3e778b7bfb0da7ff28813c91 (origin/bug1, bug1)
+Author: Branko Georgiev <bane.g2002@gmail.com>
+Date:   Sat Mar 25 20:11:39 2023 +0100
+
+    Add java class
+
+commit cdccecbfad78ef6f36c147fd9c69f6daad9fa1ec
+Author: Branko Georgiev <bane.g2002@gmail.com>
+Date:   Sat Mar 25 20:10:42 2023 +0100

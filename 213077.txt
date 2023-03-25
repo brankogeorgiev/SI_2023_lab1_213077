@@ -1,0 +1,67 @@
+4. mkdir SI_2023_lab1_213077
+cd .\SI_2023_lab1_213077\
+git init
+
+5. git remote add origin https://github.com/brankogeorgiev/SI_2023_lab1_213077.git
+
+6. notepad README.md
+git add .
+git commit -m 'Initial commit'
+git push -u origin master
+
+7. notepad SILab1.java
+git add .
+git commit -m 'Add java class'
+git push -u origin master
+
+10. git checkout -b bug1
+
+11.notepad .\SILab1.java //Поправка на грешка
+git checkout master
+git add .
+git merge bug1
+git commit -m 'Fix wrong loop for reading'
+git push -u origin master
+
+12. git checkout -b bug2
+
+13. notepad .\SILab1.java //Поправка на грешка
+git checkout master
+git add .
+git commit -m 'Fix wrong condition in filterOddNumbers'
+git push -u origin master
+
+14. git checkout -b bug3
+
+15. notepad .\SILab1.java //Поправка на грешка
+git checkout master
+git merge bug3
+git add .
+git commit -m 'Fix method sumEvenNumbers'
+git push -u origin master
+
+16. git push --all origin
+
+17. git checkout master
+
+18. git merge bug1
+
+19. git checkout master
+
+20. git merge bug2
+
+21. git checkout master
+
+22. git merge bug3
+
+23. git rebase master
+
+24. git checkout master
+
+25. git merge bug3
+
+26. git push --all --force origin
+
+
+
+
